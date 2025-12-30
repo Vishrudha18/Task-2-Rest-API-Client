@@ -111,3 +111,22 @@ HTTP response errors
 **##✅ Conclusion**
 This project demonstrates the use of REST APIs in Java, including HTTP request handling, JSON parsing, and user input processing, fulfilling the requirements of TASK 2: REST API Client.
 
+---
+
+## 🌐 Public API Used
+**OpenWeatherMap API**
+
+**Endpoint:**
+https://api.openweathermap.org/data/2.5/weather
+
+
+---
+
+## 🔑 API Key Setup
+1. Create an account at:  
+   https://openweathermap.org/
+2. Generate an API key from **My API Keys**
+3. Replace the placeholder in the code:
+```java
+String apiKey = "YOUR_API_KEY";
+
