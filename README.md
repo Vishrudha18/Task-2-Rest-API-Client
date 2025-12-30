@@ -1,5 +1,17 @@
 # Task-2-Rest-API-Client
 
+Company : Codtech IT Solutions Pvt Limited
+
+Name : Vishrudha.N
+
+Intern ID : CTIS1057
+
+Domain : Java Programming
+
+Duration : 4 Weeks
+
+Mentor : Neela Santhosh
+
 # Java REST API Client – Weather Application
 
 ## 📌 Project Overview
