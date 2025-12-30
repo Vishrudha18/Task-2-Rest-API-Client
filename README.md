@@ -58,21 +58,29 @@ https://api.openweathermap.org/data/2.5/weather
 ```java
 String apiKey = "YOUR_API_KEY";
 
-**## 📦 External Library**
-This project uses the org.json library to parse JSON responses.
+---
 
-Download the JAR from:
-https://mvnrepository.com/artifact/org.json/json
+## 🌐 Public API Used
+**OpenWeatherMap API**
 
-Place it inside the lib folder
+**Endpoint:**
+https://api.openweathermap.org/data/2.5/weather
 
-Add it to the classpath while compiling and running
+---
 
-**## 🧪 Sample Input**
+**## 🔑 API Key Setup**
+1. Create an account at:  
+   https://openweathermap.org/
+2. Generate an API key from **My API Keys**
+3. Replace the placeholder in the code:
+```java
+String apiKey = "YOUR_API_KEY";
+
+**##🧪 Sample Input**
 
 Enter city name: Chennai
 
-## 📤 Sample Output
+**##📤 Sample Output**
 
 ----- Weather Report -----
 City        : Chennai
@@ -80,26 +88,26 @@ Temperature : 27.8 °C
 Humidity    : 63 %
 Condition   : haze
 
-## ⚙ Program Workflow
-1.User enters city name
+**##⚙️ Program Workflow**
+User enters the city name
 
-2.Application constructs API URL
+Application constructs the API URL
 
-3.Sends HTTP GET request
+Sends an HTTP GET request
 
-4.Receives JSON response
+Receives the JSON response
 
-5.Parses JSON using org.json
+Parses JSON using the org.json library
 
-6.Displays weather data in structured format
+Displays weather data in a structured format
 
-##❗ Error Handling
-1.Invalid city name
+**##❗ Error Handling**
+Invalid city name
 
-2.API connection issues
+API connection issues
 
-3.HTTP response errors
+HTTP response errors
 
-##✅ Conclusion
-This project demonstrates the use of REST APIs in Java, handling HTTP requests, JSON parsing, and user input, fulfilling the requirements of TASK 2: REST API Client.
+**##✅ Conclusion**
+This project demonstrates the use of REST APIs in Java, including HTTP request handling, JSON parsing, and user input processing, fulfilling the requirements of TASK 2: REST API Client.
 
