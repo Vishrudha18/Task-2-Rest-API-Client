@@ -55,25 +55,30 @@ https://api.openweathermap.org/data/2.5/weather
 1. Create an account at https://openweathermap.org/
 2. Generate an API key from **My API Keys**
 3. Replace the placeholder in the code:
-```java
 String apiKey = "YOUR_API_KEY";
 
 ---
 
-⚙️ Program Workflow
+## 🧪 Sample Input
+Enter city name: Chennai
 
-User enters the city name
+## 📤 Sample Output
+----- Weather Report -----
+City        : Chennai
+Temperature : 27.8 °C
+Humidity    : 63 %
+Condition   : haze
 
-Application constructs the API URL
+## ⚙️Project Overflow
 
-Sends an HTTP GET request
+1.	User enters the city name
+2.	Application constructs the API URL
+3.	Sends an HTTP GET request
+4.	Receives the JSON response
+5.	Parses JSON using the org.json library
+6.	Displays weather data in a structured format
 
-Receives the JSON response
-
-Parses JSON using the org.json library
-
-Displays weather data in a structured format
-
-**##📝 Conclusion**
+## 📝Conclusion
 
 This project demonstrates the use of REST APIs in Java, including HTTP request handling, JSON parsing, and user input processing, fulfilling the requirements of TASK 2: REST API Client.
+
