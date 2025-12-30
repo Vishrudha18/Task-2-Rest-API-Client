@@ -55,22 +55,6 @@ CODTECH-IT-INTERNSHIP-TASK-2/
 
 ---
 
-## 🌐 Public API Used
-**OpenWeatherMap API**
-
-Endpoint:
-https://api.openweathermap.org/data/2.5/weather
-
----
-
-## 🔑 API Key Setup
-1. Create an account at https://openweathermap.org/
-2. Generate an API key from **My API Keys**
-3. Replace the placeholder in the code:
-String apiKey = "YOUR_API_KEY";
-
----
-
 ## 🧪 Sample Input
 Enter city name: Chennai
 
