@@ -15,10 +15,10 @@ public class Task2_Weather {
         System.out.print("Enter city name: ");
         String city = sc.nextLine();
 
-        String apiKey = "f72ace1f6a05ba938044edf7f8f45a53"; // replace with your API key
+        String apiKey = "YOUR_API_KEY"; // replace with your API key
 
         String apiUrl =
-                "https://api.openweathermap.org/data/2.5/weather?q="
+                " "
                 + city + "&appid=" + apiKey + "&units=metric";
 
         try {
@@ -70,3 +70,4 @@ public class Task2_Weather {
         sc.close();
     }
 }
+
