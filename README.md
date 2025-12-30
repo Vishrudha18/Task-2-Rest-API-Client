@@ -69,6 +69,8 @@ Temperature : 27.8 °C
 Humidity    : 63 %
 Condition   : haze
 
+<img width="1920" height="1017" alt="Image" src="https://github.com/user-attachments/assets/c5349d6a-1173-431e-9236-9b34ef4a8031" />
+
 ## ⚙️Project Overflow
 
 1.	User enters the city name
